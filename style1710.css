@@ -1,0 +1,240 @@
+body {
+	background-image: url(https://image.winudf.com/v2/image/Y29tLkxsYXdsaWV0d2FsbHBhcGVyLnBhbmRhd2FhcHBfc2NyZWVuXzFfMTUyMjcwNjc2N18wNTY/screen-1.webp?fakeurl=1&type=.webp);
+	margin: 0;
+	padding: 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.footer {
+	color: #4A53E4 ;
+	position: absolute;
+	bottom: 0;
+	height: 100px;
+	width: 100%;
+	/*background-image: url(https://media.istockphoto.com/id/1139844841/uk/%D1%84%D0%BE%D1%82%D0%BE/%D0%BF%D0%B0%D0%B4%D0%B0%D1%8E%D1%87%D0%B8%D0%B9-%D0%BF%D0%BE%D0%BB%D1%83%D0%BD%D0%B8%D1%86%D1%8E-%D1%96%D0%B7%D0%BE%D0%BB%D1%8E%D0%B2%D0%B0%D0%BB%D0%B8-%D0%BD%D0%B0-%D0%B1%D1%96%D0%BB%D0%BE%D0%BC%D1%83-%D1%82%D0%BB%D1%96.jpg?s=612x612&w=0&k=20&c=T0R2h7qbYSqu4Z2ou8rAf8adts_7dI2DI5YYx_xJnoA=);*/
+	background-color: #181C58  ;
+	text-align: center;
+	font-size: 50px;
+}
+.footer:before{
+	content: "Your score: ";
+}
+.footer:after{
+	content: counter(x);
+
+}
+input[type="checkbox"]:checked + label {
+	counter-increment: x;
+}
+
+.L + label{
+	position: absolute;
+	animation: L 3s linear infinite alternate;
+	width: 110px;
+	height: 150px;
+	background-image: url(https://media.tenor.com/OuXSx69H1ZYAAAAi/omori-omori-meme.gif);
+	background-size: cover;
+}
+
+@keyframes L {
+	0%{
+		left: 400px;
+		top: 120px;
+	}
+	10%{
+		left: 600px;
+		top: 100px;
+	}
+	30%{
+		left: 500px;
+		top: 130px;
+	}
+	60%{
+		left: 450px;
+		top: 200px;
+	}
+	100%{
+		left: 800px;
+		top: 210px;
+	}
+}
+
+
+.NOO + label{
+	position: absolute;
+	animation: NOO 2s linear infinite alternate;
+	width: 150px;
+	height: 150px;
+	background-image: url(https://media.tenor.com/2Z6UjECfmFsAAAAi/honest-reaction-omori.gif);
+	background-size: cover;
+}
+
+@keyframes NOO {
+	0%{
+		left: 100px;
+		top: 100px;
+	}
+	10%{
+		left: 300px;
+		top: 220px;
+	}
+	30%{
+		left: 100px;
+		top: 350px;
+	}
+	60%{
+		left: 260px;
+		top: 100px;
+	}
+	100%{
+		left: 550px;
+		top: 340px;
+	}
+}
+
+
+
+
+.Like + label{
+	position: absolute;
+	animation: Like 3s linear infinite alternate;
+	width: 150px;
+	height: 150px;
+	background-image: url(https://media.tenor.com/M-80UxmtJQYAAAAi/basil-omori-basil.gif);
+	background-size: cover;
+}
+
+@keyframes Like {
+	0%{
+		left: 160px;
+		top: 120px;
+	}
+	10%{
+		left: 400px;
+		top: 220px;
+	}
+	30%{
+		left: 90px;
+		top: 350px;
+	}
+	60%{
+		left: 660px;
+		top: 100px;
+	}
+	100%{
+		left: 800px;
+		top: 240px;
+	}
+}
+
+
+input[type="checkbox"]:checked + .light {
+	animation: died_L 1s linear infinite;
+}
+
+@keyframes died_L {
+	0% {
+		left: -1000px;
+	}
+	100% {
+		left:-2000px;
+	}
+}
+
+
+input[type="checkbox"]:checked + .light {
+	animation: died_NOO 1s linear infinite;
+}
+
+@keyframes died_NOO {
+	0% {
+		left: -1000px;
+	}
+	100% {
+		left:-2000px;
+	}
+}
+
+
+input[type="checkbox"]:checked + .light {
+	animation: died_Like 1s linear infinite;
+}
+
+@keyframes died_Like {
+	0% {
+		left: -1000px;
+	}
+	100% {
+		left:-2000px;
+	}
+}
+
+
+input[type="checkbox"] {
+	display: none;
+}
+
+.Life + label{
+	position: absolute;
+	animation: Life 4s linear infinite alternate;
+	width: 110px;
+	height: 150px;
+	background-image: url(https://media.tenor.com/RPWZ1Ea9Kt8AAAAi/spin-cute.gif);
+	background-size: cover;
+}
+
+@keyframes Life {
+	0%{
+		left: 600px;
+		top: 100px;
+	}
+	10%{
+		left: 300px;
+		top: 100px;
+	}
+	30%{
+		left: 550px;
+		top: 90px;
+	}
+	60%{
+		left: 250px;
+		top: 200px;
+	}
+	100%{
+		left: 800px;
+		top: 210px;
+	}
+}
+
+
+.Kel + label{
+	position: absolute;
+	animation: Kel 3s linear infinite alternate;
+	width: 110px;
+	height: 150px;
+	background-image: url(https://media.tenor.com/KxyQn8xdgvEAAAAi/kel-omori-kel.gif);
+	background-size: cover;
+}
+
+@keyframes Kel {
+	0%{
+		left: 400px;
+		top: 150px;
+	}
+	10%{
+		left: 100px;
+		top: 100px;
+	}
+	30%{
+		left: 750px;
+		top: 90px;
+	}
+	60%{
+		left: 250px;
+		top: 200px;
+	}
+	100%{
+		left: 500px;
+		top: 210px;
+	}
+}
